@@ -3,6 +3,8 @@
 
 It allows users to browse, download, copy, and share cheat sheets with a modern UI.
 
+
+
 👨‍💻 Team Members
 
 2410030125 - Sai Teja
@@ -12,6 +14,8 @@ It allows users to browse, download, copy, and share cheat sheets with a modern 
 2410030234 - Narendar
 
 2410030329 - Pratap
+
+
 
 ✨ Features
 
@@ -29,6 +33,8 @@ It allows users to browse, download, copy, and share cheat sheets with a modern 
 
 📊 View stats like views and downloads
 
+
+
 🛠️ Tech Stack
 
 Frontend: React, TypeScript
@@ -38,6 +44,8 @@ UI Components: Custom components (Card, Button, Badge)
 Icons: lucide-react
 
 PDF & Copy utilities (custom implementation)
+
+
 
 📌 Future Improvements
 
