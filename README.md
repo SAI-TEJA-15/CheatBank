@@ -1,5 +1,5 @@
 # CheatBank
-📘 Cheat Bank is a React + TypeScript web application that provides quick and easy access to cheat sheets for different technologies.
+📘 Cheat Bank is a React + JavaScript web application that provides quick and easy access to cheat sheets for different technologies.
 
 It allows users to browse, download, copy, and share cheat sheets with a modern UI.
 
@@ -37,7 +37,7 @@ It allows users to browse, download, copy, and share cheat sheets with a modern 
 
 🛠️ Tech Stack
 
-Frontend: React, TypeScript
+Frontend: React, JypeScript
 
 UI Components: Custom components (Card, Button, Badge)
 
