@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CheatBank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h1>CheatBank</h1>
+    <input type="text" id="search" placeholder="Search cheat sheets...">
+    <div class="actions">
+      <button id="toggleDark">🌙 Dark Mode</button>
+      <button class="add-btn">+ Add Cheat Sheet</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Discover Amazing Cheat Sheets</h2>
+    <p>Find quick reference guides for programming, development tools, and more. 
+       Save time with our curated collection of essential cheat sheets.</p>
+  </section>
+
+
+  <!-- Categories -->
+  <div class="categories">
+    <button class="active">All Categories</button>
+    <button>Development</button>
+    <button>Programming</button>
+    <button>Design</button>
+    <button>System Admin</button>
+    <button>Database</button>
+    <button>DevOps</button>
+    <button>Tools</button>
+  </div>
+
+  <!-- Cheat Sheets -->
+  <div class="cards">
+    <div class="card" data-category="Development" data-title="Git Commands Cheat Sheet">
+      <div class="card-header">
+        <h3>Git Commands Cheat Sheet</h3>
+        <span class="category-label">Development</span>
+      </div>
+      <p>Essential Git commands for version control. Covers basic operations, branching...</p>
+      <div class="tags">
+        <span>git</span><span>version-control</span><span>cli</span>
+      </div>
+      <div class="card-footer">
+        <span>👁 45,233 • ⬇ 15,420</span>
+        <button>View</button>
+      </div>
+    </div>
+
+    <div class="card" data-category="Programming" data-title="JavaScript ES6+ Features">
+      <div class="card-header">
+        <h3>JavaScript ES6+ Features</h3>
+        <span class="category-label">Programming</span>
+      </div>
+      <p>Modern JavaScript features including arrow functions, destructuring, promises...</p>
+      <div class="tags">
+        <span>javascript</span><span>es6</span><span>modern-js</span>
+      </div>
+      <div class="card-footer">
+        <span>👁 67,890 • ⬇ 23,150</span>
+        <button>View</button>
+      </div>
+    </div>
+
+    <div class="card" data-category="Design" data-title="CSS Flexbox Guide">
+      <div class="card-header">
+        <h3>CSS Flexbox Guide</h3>
+        <span class="category-label">Design</span>
+      </div>
+      <p>Complete flexbox reference with examples. Master responsive layouts with flex...</p>
+      <div class="tags">
+        <span>css</span><span>flexbox</span><span>layout</span>
+      </div>
+      <div class="card-footer">
+        <span>👁 52,340 • ⬇ 18,750</span>
+        <button>View</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
